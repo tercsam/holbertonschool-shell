@@ -1,0 +1,3 @@
+mod u+x hello : Cette ligne de commande utilise la commande chmod pour modifier les permissions du fichier "hello". Plus précisément, elle ajoute l'autorisation d'exécution (+x) au propriétaire du fichier (l'utilisateur actuel qui exécute le script, sauf si le fichier appartient déjà à un autre utilisateur).
+
+Après l'exécution de ce script, le propriétaire du fichier "hello" aura la permission d'exécution sur ce fichier, ce qui signifie qu'il pourra le lancer comme un script ou un programme exécutable. Les autres permissions du fichier (lecture et écriture) ne sont pas modifiées par ce script, elles restent inchangées.
