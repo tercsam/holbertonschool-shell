@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "72" > ls_cwd_content
+ls -la > ls_cwd_content
