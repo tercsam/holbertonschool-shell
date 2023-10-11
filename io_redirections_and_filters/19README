@@ -1,0 +1,11 @@
+#!/bin/bash: Cette première ligne, appelée shebang, indique que le script doit être interprété par le shell Bash. Cela signifie que ce script est destiné à être exécuté dans un environnement Bash.
+
+tr 'Ac' 'Ze': La deuxième ligne est la commande qui effectue la substitution des caractères. La commande tr signifie "translate" (traduire). Elle prend deux ensembles de caractères et remplace les caractères de l'ensemble de gauche par les caractères correspondants de l'ensemble de droite.
+
+'Ac' est l'ensemble de caractères à rechercher. Il s'agit de deux caractères, 'A' et 'c'.
+'Ze' est l'ensemble de caractères de remplacement. Les caractères 'A' seront remplacés par 'Z', et les caractères 'c' seront remplacés par 'e'.
+Ainsi, lorsque vous exécutez ce script avec une entrée, il appliquera cette transformation de manière globale, remplaçant tous les 'A' par 'Z' et tous les 'c' par 'e'. Par exemple, si l'entrée est "AccePtance", la sortie sera "ZezePtenze" deuxième ligne est la commande qui effectue la substitution des caractères. La commande tr signifie "translate" (traduire). Elle prend deux ensembles de caractères et remplace les caractères de l'ensemble de gauche par les caractères correspondants de l'ensemble de droite.
+
+'Ac' est l'ensemble de caractères à rechercher. Il s'agit de deux caractères, 'A' et 'c'.
+'Ze' est l'ensemble de caractères de remplacement. Les caractères 'A' seront remplacés par 'Z', et les caractères 'c' seront remplacés par 'e'.
+Ainsi, lorsque vous exécutez ce script avec une entrée, il appliquera cette transformation de manière globale, remplaçant tous les 'A' par 'Z' et tous les 'c' par 'e'. Par exemple, si l'entrée est "AccePtance", la sortie sera "ZezePtenze"
