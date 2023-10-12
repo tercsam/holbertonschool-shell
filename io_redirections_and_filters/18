@@ -1,0 +1,11 @@
+#!/bin/bash: Cette ligne indique que le script doit être interprété en utilisant le shell Bash.
+
+grep ^[[:alpha:]] /etc/ssh/sshd_config: La commande grep est utilisée pour rechercher des motifs (dans ce cas, le motif est ^[[:alpha:]]) dans le fichier /etc/ssh/sshd_config.
+
+^: Dans une expression régulière, le symbole ^ signifie le début de la ligne. Ainsi, ^[[:alpha:]] recherche des lignes qui commencent par une lettre majuscule (alphabétique).
+
+[[:alpha:]]: C'est une classe de caractères définissant toutes les lettres alphabétiques, en tenant compte de la casse. Cela signifie que la recherche s'applique aux lettres majuscules et minuscules.
+
+La plupart du temps, le fichier /etc/ssh/sshd_config est utilisé pour configurer le serveur SSH sur un système Linux. Ce fichier contient des paramètres de configuration qui définissent le comportement du serveur SSH.
+
+En exécutant ce script, vous obtiendrez les lignese
